@@ -13,7 +13,7 @@ class Clock {
       let hours = $.pad(date.getHours());
       let amPm = '';
   
-      if (this._twentyFourHourClock) {
+      if (!this._twentyFourHourClock) {
         hours = date.getHours();
         if (hours > 12) hours -= 12;
         else if (hours === 0) hours = 12;
