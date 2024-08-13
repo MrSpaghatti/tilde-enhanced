@@ -1,1 +1,0 @@
-![[supports-mermaid-diagrams.jpeg]]
